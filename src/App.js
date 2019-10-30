@@ -14,11 +14,11 @@ function App() {
       .then(data => setList(data));
   }, [])
 
-  let getId = (id) => setId(id)
+  let setUserId = (id) => setId(id)
 
   return (
     <div className="App">
-      <List profiles={list} getId={getId} />
+      <List profiles={list} setUserId={setUserId} />
       {id && <Details id={id} />}
     </div>
   );

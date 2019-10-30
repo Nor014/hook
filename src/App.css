@@ -46,11 +46,11 @@
   border-bottom: 1px solid lightgray;
 }
 
-.profile__name {
+.profile_item_name {
   min-height: 50px;
   line-height: 50px;
 }
 
-.isLoading {
+.invisible {
   display: none;
 }
